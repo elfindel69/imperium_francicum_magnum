@@ -1,0 +1,23 @@
+dynasty_manager = {
+    lefort_dynasty = {
+        name = { name = lefort_dynasty }
+        home = paris
+        male_names = {
+            name_charles name_francis name_henry name_john name_louis name_peter name_philip
+        }
+        female_names = {
+            name_catherine name_claudia name_elizabeth name_joanna name_margaret name_mary
+        }
+    }
+
+    lefort_burgundy_dynasty = {
+        name = { name = lefort_burgundy_dynasty }
+        home = dijon
+        male_names = {
+            name_charles name_francis name_henry name_john name_louis name_peter name_philip
+        }
+        female_names = {
+            name_catherine name_claudia name_elizabeth name_joanna name_margaret name_mary
+        }
+    }
+}

@@ -1,0 +1,799 @@
+character_db={
+
+    ## House of Lefort - Kings and Emperors of France
+
+    fra_rudophe_lefort = {
+        first_name = { name = name_rudolf }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 26 dip = 29 mil = 59
+        birth_date = 1037.5.23
+        death_date = 1109.7.29
+        birth = paris #champlive
+        #father = fra_henri_i_capet
+        #mother = Anna of Kyiv
+        dynasty = lefort_dynasty
+        tag = FRA
+        ruler_trait = sinner
+        ruler_trait = expansionist
+    }
+
+    fra_sigismond_lefort = {
+        first_name = { name = name_sigmund }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 66 dip = 66 mil = 53
+        birth_date = 1081.12.1
+        death_date = 1130.8.1
+        birth = paris
+        father = fra_rudophe_lefort
+        #mother = Adelaide de Sens
+        dynasty = lefort_dynasty
+        tag = FRA
+        ruler_trait = inspiring_leader
+        ruler_trait = well_connected
+    }
+
+    fra_blanche_of_burgundy = {
+        first_name = {name= name_blanche}
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 46 dip = 56 mil = 43
+        female = yes
+        birth_date = 1084.12.1
+        death_date = 1139.8.1
+        birth = paris
+        father = fra_rudophe_lefort
+        #mother = Adelaide de Sens
+        spouse = bur_hugues_ii_burgundian
+        dynasty = lefort_dynasty
+        tag = FRA
+    }
+
+    fra_hugues_lefort = {
+        first_name = {name= name_hugh}
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 46 dip = 58 mil = 47
+        birth_date = 1086.12.1
+        death_date = 1127.8.1
+        birth = paris
+        father = fra_rudophe_lefort
+        #mother = Adelaide de Sens
+        dynasty = lefort_dynasty
+        tag = FRA
+    }
+
+    fra_archambaud_lefort = {
+        first_name = { name = name_archibald }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 52 dip = 62 mil = 51
+        birth_date = 1110.9.18
+        death_date = 1170.9.18
+        birth = paris
+        father = fra_sigismond_lefort
+        #mother = Beatrix von Zähringen
+        dynasty = lefort_dynasty
+        tag = FRA
+        ruler_trait = sinner
+        ruler_trait = scholar
+        ruler_trait = embezzler
+    }
+
+    fra_marguerite_of_swabia = {
+        first_name = { name = name_margaret }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 50 dip = 42 mil = 31
+        female = yes
+        birth_date = 1113.9.18
+        death_date = 1180.9.18
+        birth = paris
+        father = fra_sigismond_lefort
+        #mother = Beatrix von Zähringen
+        #spouse = Hermann II of Swabia
+        dynasty = lefort_dynasty
+        tag = FRA
+    }
+
+    fra_guillaume_lefort = {
+        first_name = { name = name_william }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 49 dip = 47 mil = 37
+        birth_date = 1116.9.18
+        death_date = 1164.9.18
+        birth = paris
+        father = fra_sigismond_lefort
+        #mother = Beatrix von Zähringen
+        dynasty = lefort_dynasty
+        tag = FRA
+    }
+
+    fra_arnaud_lefort = {
+        first_name = { name = name_arnold }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 80 dip = 73 mil = 73
+        birth_date = 1137.8.21
+        death_date = 1200.7.14
+        birth = paris #gonesse
+        father = fra_archambaud_lefort
+        #mother = Catherine di Picenza
+        dynasty = lefort_dynasty
+        tag = FRA
+        ruler_trait = zealot
+        ruler_trait = midas_touched
+        ruler_trait = conqueror
+    }
+
+    fra_eleonore_arpad = {
+        first_name = { name = name_eleanor }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 70 dip = 63 mil = 63
+        female = yes
+        birth_date = 1137.8.21
+        death_date = 1200.7.14
+        birth = paris #gonesse
+        father = fra_archambaud_lefort
+        #mother = Catherine di Picenza
+        #spouse = David Arpad
+        dynasty = lefort_dynasty
+        tag = FRA
+    }
+
+    fra_philipe_lefort = {
+        first_name = { name = name_philip }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 75 dip = 60 mil = 55
+        birth_date = 1137.8.21
+        death_date = 1200.7.14
+        birth = paris #gonesse
+        father = fra_archambaud_lefort
+        #mother = Catherine di Picenza
+        dynasty = lefort_dynasty
+        tag = FRA
+    }
+
+    fra_renaud_lefort = {
+        first_name = { name = name_reginald }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 75 dip = 60 mil = 55
+        birth_date = 1147.8.21
+        death_date = 1210.7.14
+        birth = paris #gonesse
+        father = fra_archambaud_lefort
+        #mother = Catherine di Picenza
+        dynasty = lefort_dynasty
+        tag = FRA
+    }
+
+    fra_geoffroy_lefort = {
+        first_name = { name = name_geffrey }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 73 dip = 60 mil = 85
+        birth_date = 1162.9.5
+        death_date = 1210.11.8
+        birth = paris
+        father = fra_arnaud_lefort
+        #mother = Isabeau de Poitiers
+        dynasty = lefort_dynasty
+        tag = FRA
+        ruler_trait = zealot
+    }
+
+    fra_mathilde_lefort = {
+        first_name = {  name = name_matilda }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 66 dip = 55 mil = 55
+        female = yes
+        birth_date = 1164.9.5
+        death_date = 1222.11.8
+        birth = paris
+        father = fra_arnaud_lefort
+        #mother = Isabeau de Poitiers
+        #spouse = Baldomar of Lorraine
+        dynasty = lefort_dynasty
+        tag = FRA
+    }
+
+    fra_jean_lefort = {
+        first_name = {  name = name_john }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 68 dip = 58 mil = 55
+        birth_date = 1166.9.5
+        death_date = 1218.11.8
+        birth = paris
+        father = fra_arnaud_lefort
+        #mother = Isabeau de Poitiers
+        dynasty = lefort_dynasty
+        tag = FRA
+    }
+
+    fra_evrard_lefort = {
+        first_name = { name = name_everard }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 75 dip = 77 mil = 78
+        father = fra_geoffroy_lefort
+        #mother = Clemence de Troies
+        birth = paris
+        birth_date = 1182.4.25
+        death_date = 1211.8.25
+        dynasty = lefort_dynasty
+        tag = FRA
+        ruler_trait = righteous
+        ruler_trait = just
+    }
+
+    fra_charles_iv_lefort = {
+        first_name = { name = name_charles }
+        nickname = { name = the_penitent }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 69 dip = 52 mil = 50
+        birth_date = 1207.5.1
+        death_date = 1261.10.5
+        birth = paris
+        father = fra_geoffroy_lefort
+        #mother = Clemence de Troies
+        dynasty = lefort_dynasty
+        tag = FRA
+        ruler_trait = bold_fighter
+        ruler_trait = expansionist
+    }
+
+    fra_blanche_obertenghi = {
+        first_name = { name = name_blanche }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 55 dip = 42 mil = 40
+        female = yes
+        birth_date = 1209.5.1
+        death_date = 1268.10.5
+        birth = paris
+        father = fra_geoffroy_lefort
+        #mother = Clemence de Troies
+        dynasty = lefort_dynasty
+        tag = FRA
+    }
+
+    # Grandfather of the Queen of Navarra & Former King of France
+    fra_attila_lefort = {
+        first_name = { name = Attila }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 80 dip = 49 mil = 78
+        birth_date = 1230.4.8
+        death_date = 1286.11.29
+        birth = paris
+        father = fra_charles_iv_lefort
+        #mother = Beatrice of Britany
+        dynasty = lefort_dynasty
+        tag = FRA
+        ruler_trait = lawgiver
+        ruler_trait = midas_touched
+        ruler_trait = zealot
+    }
+
+    fra_adelaide_von_virneberg = {
+        first_name = { name = name_adelaide }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 60 dip = 44 mil = 58
+        female = yes
+        birth_date = 1234.4.8
+        death_date = 1292.11.29
+        birth = paris
+        father = fra_charles_iv_lefort
+        #mother = Beatrice of Britany
+        #spouse = Heinrich vor Virneburg
+        dynasty = lefort_dynasty
+        tag = FRA
+    }
+
+    fra_marie_of_savoy = {
+        first_name = { name = name_mary }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 60 dip = 44 mil = 58
+        female = yes
+        birth_date = 1236.4.8
+        death_date = 1295.11.29
+        birth = paris
+        father = fra_charles_iv_lefort
+        #mother = Beatrice of Britany
+        #spouse = Philippe of Savoy
+        dynasty = lefort_dynasty
+        tag = FRA
+    }
+
+    # Father of the Queen of Navarra & Former King of France & Navarra
+    fra_bertalan_i_lefort = {
+        first_name = { name = name_bartholomew }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 55 dip = 37 mil = 42
+        birth_date = 1252.10.4
+        death_date = 1296.6.5
+        birth = paris
+        father = fra_attila_lefort
+        #mother = Marguerite Arpad
+        dynasty = lefort_dynasty
+        tag = FRA
+        ruler_trait = lawgiver
+    }
+
+    fra_catherine_of_burgundy = {
+        first_name = { name = name_catherine }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 55 dip = 37 mil = 42
+        female = yes
+        birth_date = 1252.10.4
+        death_date = 1296.6.5
+        birth = paris
+        father = fra_attila_lefort
+        #mother = Marguerite Arpad
+        #spouse = Eudes de Bourgogne
+        dynasty = lefort_dynasty
+        tag = FRA
+        ruler_trait = lawgiver
+    }
+
+    fra_rudolphe_de_valois = {
+        first_name = { name = name_rudolf }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 50 dip = 36 mil = 47
+        birth_date = 1258.10.4
+        death_date = 1302.6.5
+        birth = paris
+        father = fra_attila_lefort
+        #mother = Marguerite Arpad
+        dynasty = lefort_dynasty
+        tag = FRA
+        ruler_trait = lawgiver
+    }
+
+    fra_bertalan_ii_lefort = {
+        first_name = { name = name_bartholomew }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 60 dip = 49 mil = 60
+        birth_date = 1274.11.15
+        death_date = 1299.11.20
+        birth = paris
+        father = fra_bertalan_i_lefort
+        #mother = Violante di Pisa
+        dynasty = lefort_dynasty
+        tag = FRA
+    }
+
+    fra_isabelle_de_toulouse = {
+        first_name = { name = name_elizabeth }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 60 dip = 49 mil = 60
+        female = yes
+        birth_date = 1274.11.15
+        death_date = 1299.11.20
+        birth = paris
+        father = fra_bertalan_i_lefort
+        #mother = Violante di Pisa
+        #spouse = Raymond de Toulouse
+        dynasty = lefort_dynasty
+        tag = FRA
+    }
+
+    # Father of the Countess Palatine of Burgundy & Countess of Artois & Former King of France
+    fra_bertalan_iii_lefort = {
+        first_name = { name = name_bartholomew }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 44 dip = 59 mil = 50
+        birth_date = 1294.1.1
+        death_date = 1324.1.3
+        birth = paris
+        father = fra_rudolphe_de_valois
+        #mother = Yolande de Genevois
+        dynasty = lefort_dynasty
+        tag = FRA
+        ruler_trait = lawgiver
+    }
+
+
+    fra_anne_of_hungary = {
+        first_name = { name = name_anna }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 40 dip = 50 mil = 45
+        female = yes
+        birth_date = 1297.1.1
+        death_date = 1332.1.3
+        birth = paris
+        father = fra_rudolphe_de_valois
+        #mother = Isabelle de Turennes
+        #spouse = David Arpad -- to be defined
+        dynasty = lefort_dynasty
+        tag = FRA
+        ruler_trait = lawgiver
+    }
+
+    fra_philippe_of_dreux = {
+        first_name = { name = name_philip }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 42 dip = 52 mil = 41
+        birth_date = 1300.1.1
+        death_date = 1337.1.3
+        birth = paris
+        father = fra_rudolphe_de_valois
+        #mother = Isabelle de Turennes
+        dynasty = lefort_dynasty
+        tag = FRA
+        ruler_trait = lawgiver
+    }
+
+    # Father of the Countess Palatine of Burgundy & Countess of Artois & Former King of France
+    fra_louis_iv_lefort = {
+        first_name = { name = name_louis }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 44 dip = 59 mil = 50
+        birth_date = 1315.1.1
+        birth = paris
+        father = fra_bertalan_iii_lefort
+        mother = bur_blanche_burgundian
+        dynasty = lefort_dynasty
+        tag = FRA
+        ruler_trait = lawgiver
+    }
+
+    fra_anne_of_poland = {
+        first_name = { name = name_anna }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 40 dip = 50 mil = 45
+        female = yes
+        birth_date = 1317.6.2
+        birth = paris
+        father = fra_bertalan_iii_lefort
+        mother = bur_blanche_burgundian
+        #spouse = TODO Zygmund Piast - to be refined
+        dynasty = lefort_dynasty
+        tag = FRA
+    }
+
+    fra_philippe_de_bourgogne = {
+        first_name = { name = name_philip }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 47 dip = 57 mil = 55
+        birth_date = 1317.6.2
+        birth = paris
+        father = fra_bertalan_iii_lefort
+        mother = bur_blanche_burgundian
+        dynasty = lefort_burgundy_dynasty
+        tag = BUR
+    }
+
+    fra_geraut_lefort = {
+        first_name = { name = name_gerald }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 0 dip = 0 mil = 0
+        birth_date = 1335.1.1
+        birth = paris
+        father = fra_louis_iv_lefort
+        mother = hun_katalin #TODO -- to be refined
+        dynasty = lefort_dynasty
+        tag = FRA
+    }
+
+    fra_agnes_lefort = {
+        first_name = { name = name_agnes }
+        culture = french
+        religion = catholic
+        estate = nobles_estate
+        adm = 0 dip = 0 mil = 0
+        female = yes
+        birth_date = 1337.2.1
+        birth = paris
+        father = fra_louis_iv_lefort
+        mother = hun_katalin #TODO -- to be refined
+        dynasty = lefort_dynasty
+        tag = FRA
+    }
+
+
+    ## Lefort - Bourgogne line
+    bur_hugues_iv_bourgogne = {
+        first_name = { name = name_hugh }
+        culture = burgundian
+        religion = catholic
+        estate = nobles_estate
+        adm = 46 dip = 54 mil = 44
+        birth_date = 1170.1.1
+        death_date = 1222.8.25
+        birth = dijon
+        father = bur_hugues_iii_burgundian
+        #mother = Alix de Lorraine
+        dynasty = burgundy_dynasty
+        tag = BUR
+        ruler_trait = zealot
+    }
+
+    bur_eudes_iii_bourgogne = {
+        first_name = { name = name_otto }
+        culture = burgundian
+        religion = catholic
+        estate = nobles_estate
+        adm = 46 dip = 54 mil = 44
+        birth_date = 1193.1.1
+        death_date = 1249.8.25
+        birth = dijon
+        father = bur_hugues_iv_bourgogne
+        #mother = Yolande de Nevers
+        dynasty = burgundy_dynasty
+        tag = BUR
+        ruler_trait = lawgiver
+    }
+
+    bur_hugues_v_bourgogne = {
+        first_name = { name = name_hugh }
+        culture = burgundian
+        religion = catholic
+        estate = nobles_estate
+        adm = 46 dip = 54 mil = 44
+        birth_date = 1215.1.1
+        death_date = 1278.8.25
+        birth = dijon
+        father = bur_eudes_iii_bourgogne
+        #mother = Beatrix de Forez
+        dynasty = burgundy_dynasty
+        tag = BUR
+        ruler_trait = zealot
+    }
+
+    bur_jean_i_bourgogne = {
+        first_name = { name = name_john }
+        culture = burgundian
+        religion = catholic
+        estate = nobles_estate
+        adm = 46 dip = 54 mil = 44
+        birth_date = 1240.1.1
+        death_date = 1303.8.25
+        birth = dijon
+        father = bur_eudes_iii_bourgogne
+        #mother = Isabelle de Savoie
+        dynasty = burgundy_dynasty
+        tag = BUR
+        ruler_trait = zealot
+    }
+
+    bur_marguerite_de_bourgogne = {
+        first_name = { name = name_margaret }
+        culture = burgundian
+        religion = catholic
+        estate = nobles_estate
+        adm = 40 dip = 44 mil = 34
+        female = yes
+        birth_date = 1243.1.1
+        death_date = 1295.8.25
+        birth = dijon
+        father = bur_eudes_iii_bourgogne
+        #mother = Isabelle de Savoie
+        dynasty = burgundy_dynasty
+        tag = BUR
+    }
+
+    bur_pierre_de_bourgogne = {
+        first_name = { name = name_peter }
+        culture = burgundian
+        religion = catholic
+        estate = nobles_estate
+        adm = 46 dip = 47 mil = 42
+        birth_date = 1247.1.1
+        death_date = 1310.8.25
+        birth = dijon
+        father = bur_eudes_iii_bourgogne
+        #mother = Isabelle de Savoie
+        dynasty = burgundy_dynasty
+        tag = BUR
+        ruler_trait = zealot
+    }
+
+    bur_agnes_de_bourgogne = {
+        first_name = { name = name_peter }
+        culture = burgundian
+        religion = catholic
+        estate = clergy_estate
+        adm = 46 dip = 47 mil = 32
+        birth_date = 1251.1.1
+        death_date = 1302.8.25
+        birth = dijon
+        father = bur_eudes_iii_bourgogne
+        #mother = Isabelle de Savoie
+        dynasty = burgundy_dynasty
+        tag = BUR
+    }
+
+    bur_hugues_vi_bourgogne = {
+        first_name = { name = name_hugh }
+        culture = burgundian
+        religion = catholic
+        estate = nobles_estate
+        adm = 46 dip = 54 mil = 44
+        birth_date = 1266.1.1
+        death_date = 1314.8.25
+        birth = dijon
+        father = bur_jean_i_bourgogne
+        #mother = Catherine de lyonnais
+        dynasty = burgundy_dynasty
+        tag = BUR
+        ruler_trait = zealot
+    }
+
+    bur_louis_i_bourgogne = {
+        first_name = { name = name_louis }
+        culture = burgundian
+        religion = catholic
+        estate = nobles_estate
+        adm = 46 dip = 54 mil = 44
+        birth_date = 1278.1.1
+        death_date = 1328.8.25
+        birth = dijon
+        father = bur_jean_i_bourgogne
+        #mother = Catherine de lyonnais
+        dynasty = burgundy_dynasty
+        tag = BUR
+    }
+
+    bur_marguerite_de_forez = {
+        first_name = { name = name_margaret }
+        culture = burgundian
+        religion = catholic
+        estate = nobles_estate
+        adm = 46 dip = 54 mil = 44
+        female = yes
+        birth_date = 1278.1.1
+        death_date = 1328.8.25
+        birth = dijon
+        father = bur_jean_i_bourgogne
+        #mother = Catherine de lyonnais
+        dynasty = burgundy_dynasty
+        tag = BUR
+    }
+
+    bur_eudes_iv_bourgogne = {
+        first_name = { name = name_otto }
+        culture = burgundian
+        religion = catholic
+        estate = nobles_estate
+        adm = 46 dip = 54 mil = 44
+        birth_date = 1289.1.1
+        death_date = 1326.8.25
+        birth = dijon
+        father = bur_hugues_vi_bourgogne
+        #mother = Alix de Lorraine
+        dynasty = burgundy_dynasty
+        tag = BUR
+        ruler_trait = peaceful
+    }
+    bur_jeanne_de_savoie = {
+        first_name = { name = name_joanna }
+        culture = burgundian
+        religion = catholic
+        estate = nobles_estate
+        adm = 46 dip = 54 mil = 44
+        female = yes
+        birth_date = 1278.1.1
+        death_date = 1328.8.25
+        birth = dijon
+        father = bur_hugues_vi_bourgogne
+        #mother = Alix de Lorraine
+        dynasty = burgundy_dynasty
+        tag = BUR
+    }
+    bur_hugues_de_bourgogne = {
+        first_name = { name = name_hugh }
+        culture = burgundian
+        religion = catholic
+        estate = nobles_estate
+        adm = 46 dip = 54 mil = 44
+        birth_date = 1295.1.1
+        death_date = 1316.8.25
+        birth = dijon
+        father = bur_hugues_vi_bourgogne
+        #mother = Alix de Lorraine
+        dynasty = burgundy_dynasty
+        tag = BUR
+        ruler_trait = peaceful
+    }
+
+    bur_marguerite_neuchatel = {
+        first_name = { name = name_joanna }
+        culture = burgundian
+        religion = catholic
+        estate = nobles_estate
+        adm = 46 dip = 54 mil = 44
+        female = yes
+        birth_date = 1305.10.2
+        birth = dijon
+        father = bur_louis_i_bourgogne
+        #mother = Beatrix de Provence
+        dynasty = burgundy_dynasty
+        tag = BUR
+    }
+
+    fra_louis_lefort_bourgogne = {
+        first_name = { name = name_louis }
+        culture = burgundian
+        religion = catholic
+        estate = nobles_estate
+        adm = 0 dip = 1 mil = 0
+        birth_date = 1335.6.2
+        birth = dijon
+        father = fra_philippe_de_bourgogne
+        mother = zig_adelheid_ziegenhain
+        dynasty = lefort_burgundy_dynasty
+        tag = BUR
+    }
+
+    fra_henri_lefort_bourgogne = {
+        first_name = { name = name_henry }
+        culture = burgundian
+        religion = catholic
+        estate = nobles_estate
+        adm = 0 dip = 0 mil = 0
+        birth_date = 1337.2.2
+        birth = dijon
+        father = fra_philippe_de_bourgogne
+        mother = zig_adelheid_ziegenhain
+        dynasty = lefort_burgundy_dynasty
+        tag = BUR
+    }
+
+
+
+}

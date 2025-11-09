@@ -1,0 +1,62 @@
+lefort_dynasty={
+	pattern="pattern_solid.dds"
+	color1="blue"
+	color2="yellow"
+	color3="red"
+	colored_emblem={
+		texture="ce_semis_fleur_lis_shield.dds"
+		color1=color2
+		color2=color2
+		instance={
+			position={ 0.5 0.51 }
+			scale={ 0.85 0.85 }
+		}
+	}
+	colored_emblem={
+		texture="ce_border_shield_thin.dds"
+		color1=color2
+		color2=color2
+	}
+}
+lefort_burgundy_dynasty={
+	pattern="pattern_solid.dds"
+	color1="blue"
+	color2="yellow"
+	color3="red"
+	colored_emblem={
+		texture="ce_quarterly_shield.dds"
+		color1=color1
+		color2="white"
+	}
+	colored_emblem={
+		texture="ce_semis_fleur_lis_shield.dds"
+		color1=color2
+		color2=color2
+		instance={
+			position={ 0.37 0.26 }
+			scale={ 0.25 0.4 }
+		}
+		instance={
+			position={ 0.61 0.645 }
+			scale={ 0.225 0.325 }
+		}
+	}
+	colored_emblem={
+		texture="ce_saltire_cross_burgundy.dds"
+		color1=color3
+		color2=color3
+		instance={
+			position={ 0.625 0.26 }
+			scale={ 0.25 0.4 }
+		}
+		instance={
+			position={ 0.39 0.645 }
+			scale={ 0.225 0.325 }
+		}
+	}
+	colored_emblem={
+		texture="ce_border_shield_thin.dds"
+		color1=color2
+		color2=color2
+	}
+}

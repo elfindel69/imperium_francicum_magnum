@@ -1,0 +1,13 @@
+﻿{
+	"name":	"Imperium Francicum Magnum",
+	"id":	"elfindel69.imf",
+	"version":	"0.0.1",
+	"supported_game_version":	"1.0.*",
+    "picture": "thumbnail.png",
+	"short_description":	"WIP - development in progress",
+	"tags":	["Alternative history", "Characters", "Flags", "Map"],
+	"relationships":	[],
+	"game_custom_data":	{
+	},
+	"game_id":"eu5"
+}
