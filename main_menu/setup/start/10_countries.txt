@@ -1619,7 +1619,7 @@ countries = {
 	}
 
 	SAA = { #Saarbrücken
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			saarbrucken
 		}
 
@@ -14143,7 +14143,7 @@ countries = {
 				turenne gourdon #Vic.Turenne
 				mende #C. de Gevaudan
 				langres grancey #D. de Langres
-				macon #C. de Macon
+
 				beaujeu perreux trevoux #S.de Beaujeu
 				lyon riverie #C. de Lyon
 				le_puy #C. du Velay
@@ -14207,6 +14207,7 @@ countries = {
                 alluyes #B. du Perche-Gou�t
                 monfort_lamaury
                 belleme mortagne senonches
+
 			}
 			own_control_integrated = {
 
@@ -14288,7 +14289,7 @@ countries = {
 
                 toul
                 verdun fresnes
-                montbeliard
+
                 metz epinal sarrebourg vic_sur_seille
                 saint_avold
                 belfort ferrette
@@ -14297,7 +14298,20 @@ countries = {
                 colmar
                 angers chateau_gontier bauge saumur
                 beaupreau le_lude passavant
-
+                cambrai
+                mouzon
+                montmedy
+                murbach
+                zabern oberkirch benfeld
+                strasbourg
+                bouillon
+                saarbrucken
+                salm
+                haguenau
+                lichtenberg
+                offenburg
+                saarwerden
+                zweibrucken bitche pirmasens
             }
 
 			own_control_conquered = {
@@ -14538,6 +14552,7 @@ countries = {
 			avallon
 			montcenis
 			aignay arnay beaune auxonne louhans
+            macon #C. de Macon
 		}
 
 		starting_technology_level = 3
@@ -14615,6 +14630,7 @@ countries = {
 			luxeuil salins_les_bains
             saint_claude
             besancon
+            montbeliard
 		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -17540,7 +17556,7 @@ countries = {
 
 	#Bouillon
 	BLL = {
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			bouillon
 		}
 
@@ -35258,7 +35274,7 @@ countries = {
 	}
 
 	SFC = {  # Strasbourg Free City (South Germany)
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			strasbourg
 		}
 		starting_technology_level = 3
@@ -35271,7 +35287,7 @@ countries = {
 	}
 
 	LIC = {  # Lichtenberg (South Germany)
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			lichtenberg
 		}
 		starting_technology_level = 3
@@ -35312,7 +35328,7 @@ countries = {
 	}
 
 	MUR = {  # Murbach (South Germany)
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			murbach
 		}
 		starting_technology_level = 3
@@ -35325,7 +35341,7 @@ countries = {
 	}
 
 	HAG = {  # Haguenau (South Germany)
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			haguenau
 		}
 		starting_technology_level = 3
@@ -35470,7 +35486,7 @@ countries = {
 	}
 
 	SAW = {  # Saarwerden (South Germany)
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			saarwerden
 		}
 		starting_technology_level = 3
@@ -36174,7 +36190,7 @@ countries = {
 	}
 
 	OFB = { #Offenburg
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			offenburg
 		}
 
@@ -36209,7 +36225,7 @@ countries = {
 	}
 
 	ALS = { #Strasbourg
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			zabern oberkirch benfeld
 		}
 
@@ -36497,7 +36513,7 @@ countries = {
 	}
 
 	SLM = { #Salm
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			salm
 		}
 
@@ -36523,7 +36539,7 @@ countries = {
 	}
 
 	MOU = { #Mouzon
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			mouzon
 		}
 
@@ -37814,7 +37830,7 @@ countries = {
 	}
 
 	ZWE = {	#Zweibrucken
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			zweibrucken bitche pirmasens
 		}
 
@@ -38918,7 +38934,7 @@ countries = {
 	}
 
 	CHN = {	#Chiny - union under Loon
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			montmedy
 		}
 
@@ -39309,7 +39325,7 @@ countries = {
 	}
 
 	CAM = { #Cambrésis
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			cambrai
 		}
 
