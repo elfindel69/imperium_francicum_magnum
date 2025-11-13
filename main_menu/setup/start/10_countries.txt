@@ -13371,12 +13371,12 @@ countries = {
 
 
 	CAT = {
-		our_cores_conquered_by_others = {
+        own_control_core = {
 			barcelona sitges terrassa villafranca_del_penedes
 			girona besalu castellon_ampurias ripoll sant_feliu
 			tarragona flix lleida montblanc tarrega tortosa
 			vic berga cardona cervera manresa
-			perpignan prades puigcerda
+            prades puigcerda
 			seu_durgell agramunt balaguer talarn vielha
 		}
 
@@ -13451,9 +13451,7 @@ countries = {
 	}
 	ARA = {
 		own_control_core = {
-			barcelona berga besalu ripoll castellon_ampurias girona manresa sant_feliu sitges terrassa vic
-			cervera balaguer flix lleida montblanc tarragona tarrega tortosa villafranca_del_penedes
-			seu_durgell agramunt cardona talarn vielha
+
 			huesca ainsa almudevar anso barbastro benabarre ejea_de_los_caballeros fraga jaca monzon sarinena sos
 			teruel albarracin alcaniz alfambra cantavieja montalban mora_de_rubielos valderrobres
 			zaragoza ariza belchite carinena caspe calatayud daroca pina_de_ebro tarazona zuera
@@ -13474,6 +13472,10 @@ countries = {
 		our_cores_conquered_by_others = {
 			puigcerda prades montpellier perpignan
 			palma ciudadela_de_menorca ibiza manacor pollensa #Majorca
+            barcelona sitges terrassa villafranca_del_penedes girona besalu castellon_ampurias
+            ripoll sant_feliu tarragona flix lleida montblanc tarrega tortosa
+            vic berga cervera manresa seu_durgell agramunt balaguer cardona talarn vielha
+
 		}
 
 		starting_technology_level = 3
@@ -13538,7 +13540,7 @@ countries = {
 
 		court_language = catalan_dialect
 		country_rank = rank_kingdom
-		capital = barcelona
+		capital = zaragoza
 		accepted_cultures = { aragonese }
 		tolerated_cultures = {
 			andalusi
@@ -13571,10 +13573,10 @@ countries = {
 	MLL = {
 		own_control_core = {
 			palma ciudadela_de_menorca ibiza manacor pollensa #Kingdom of Mallorca
-			puigcerda prades #County of Cerdanya
-
 		}
-
+        our_cores_conquered_by_others = {
+            puigcerda prades #County of Cerdanya
+        }
 		starting_technology_level = 3
 		include = "expl_mediterranean"
 		include = "expl_silk_road_west"

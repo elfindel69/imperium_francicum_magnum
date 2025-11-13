@@ -173,6 +173,7 @@ diplomacy_manager = {
     dependency = { first = FRA second = LUX subject_type = vassal }
     dependency = { first = FRA second = BRB subject_type = vassal }
     dependency = { first = FRA second = LOO subject_type = vassal }
+    dependency = { first = FRA second = CAT subject_type = vassal }
     #Vassals of vassals
     dependency = { first = FLA second = NAM subject_type = vassal }
 
