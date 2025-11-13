@@ -14210,10 +14210,6 @@ countries = {
 
 			}
 			own_control_integrated = {
-
-
-
-
                 # own_control_integrated, but culture accepted
                 joigny #C. de Joigny
                 vic_le_comte
@@ -14284,9 +14280,6 @@ countries = {
                 abbeville montreuil #Ponthieu
 
 
-
-
-
                 toul
                 verdun fresnes
 
@@ -14312,6 +14305,33 @@ countries = {
                 offenburg
                 saarwerden
                 zweibrucken bitche pirmasens
+
+                weert
+                roermond
+                heinsberg
+                maastricht
+                bergheim duren monchengladbach
+                cologne ahrweiler neuss
+                bonn
+                daun cochem
+                trier wittlich
+                mayen coblenz saarburg
+                simmern
+                lichtenberg_veldenz
+                meisenheim
+                leiningen
+                landau_rhineland
+                bruchsal
+                speyer
+                heidelberg sinsheim germersheim neustadt_an_der_haardt oppenheim  kaiserslautern
+
+                limbourg
+                stavelot
+                aachen
+                schleiden
+                prum
+                kreuznach birkenfeld castellaun
+                baden durlach
             }
 
 			own_control_conquered = {
@@ -34507,9 +34527,11 @@ countries = {
 	}
 
 	PAL = {	#The Palatinate
-		own_control_core = {
+        our_own_core = {
+            amberg eschenbach neumarkt roding sulzbach #Oberpfalz
+        }
+        our_cores_conquered_by_others = {
 			heidelberg sinsheim germersheim neustadt_an_der_haardt oppenheim  kaiserslautern
-			amberg eschenbach neumarkt roding sulzbach #Oberpfalz
 		}
 
 		starting_technology_level = 3
@@ -34517,7 +34539,7 @@ countries = {
 		include = "catholic_monarchy_no_coast"
 		include = "expl_northern_europe"
 		include = "german_principality"
-		capital = heidelberg
+		capital = amberg
 		dynasty = wittelsbach_dynasty
 		government = {
 			ruler = pal_rudolf_ii_wittelsbach
@@ -35110,7 +35132,7 @@ countries = {
 	}
 
 	MDS = {  # Manderscheid (South Germany)
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			schleiden
 		}
 		starting_technology_level = 3
@@ -35137,7 +35159,7 @@ countries = {
 	}
 
 	LDA = {  # Landau (South Germany)
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			landau_rhineland
 		}
 		starting_technology_level = 3
@@ -35154,7 +35176,7 @@ countries = {
 	}
 
 	VEL = {  # Veldenz (South Germany)
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			lichtenberg_veldenz
 			meisenheim
 		}
@@ -35242,7 +35264,7 @@ countries = {
 	}
 
 	PSZ = {  # Simmern (South Germany)
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			simmern
 		}
 		starting_technology_level = 3
@@ -36000,7 +36022,7 @@ countries = {
 	}
 
 	SPY = {	#Speyer
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			bruchsal
 		}
 
@@ -36020,7 +36042,7 @@ countries = {
 	}
 
 	BDE = {	#Baden
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			baden durlach
 		}
 
@@ -37700,7 +37722,7 @@ countries = {
 	}
 
 	TRI = {	#Trier
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			trier wittlich
 			mayen coblenz saarburg
 		}
@@ -37809,7 +37831,7 @@ countries = {
 	}
 
 	SYE = {	#Speyer
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			speyer
 		}
 
@@ -37856,7 +37878,7 @@ countries = {
 	}
 
 	LNN = {	#Leiningen
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			leiningen
 		}
 
@@ -37883,7 +37905,7 @@ countries = {
 	}
 
 	SPO = {	#Sponheim
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			kreuznach birkenfeld castellaun
 		}
 
@@ -37945,9 +37967,12 @@ countries = {
 	}
 
 	KOL = {	#Cologne
-		own_control_core = {
-			cologne ahrweiler neuss attendorn brilon soest recklinghausen
-			bonn
+        own_control_core = {
+            attendorn brilon soest recklinghausen
+        }
+        our_cores_conquered_by_others = {
+			cologne ahrweiler neuss
+            bonn
 		}
 
 		starting_technology_level = 3
@@ -37964,11 +37989,11 @@ countries = {
 			angrian
 		}
 
-		capital = cologne
+		capital = attendorn
 	}
 
 	DUN = {	#Daun
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			daun cochem
 		}
 
@@ -37997,7 +38022,7 @@ countries = {
 	}
 
 	APR = {	#Prüm
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			prum
 		}
 
@@ -38015,7 +38040,7 @@ countries = {
 	}
 
 	AAC = {	#Aachen
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			aachen
 		}
 
@@ -38036,7 +38061,7 @@ countries = {
 	}
 
 	JUL = {	#Jülich
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			bergheim duren monchengladbach
 		}
 
@@ -38072,8 +38097,11 @@ countries = {
 
 	GEL = {	#Guelders / Geldern / former EU4 Gelre
 		own_control_core = {
-			geldern arnhem roermond venlo nijmegen tiel harderwijk apeldoorn
+			geldern arnhem  venlo nijmegen tiel harderwijk apeldoorn
 		}
+        our_cores_conquered_by_others  = {
+            roermond
+        }
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -38967,7 +38995,7 @@ countries = {
 	}
 
 	LIM = { #Limbourg - PU under Brabant
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			limbourg
 		}
 
@@ -39078,7 +39106,7 @@ countries = {
 	}
 
 	VBG = { #Valkenburg - PU under Loon
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			maastricht
 		}
 
@@ -39104,7 +39132,7 @@ countries = {
 	}
 
 	HBG = { #Heinsberg - PU under Loon
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			heinsberg
 		}
 
@@ -39130,7 +39158,7 @@ countries = {
 	}
 
 	HRN = { #Horne
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			weert
 		}
 
@@ -39407,7 +39435,7 @@ countries = {
 	}
 
 	STV = { #Princely Abbey of Stavelot-Malmedy
-		own_control_core = {
+        our_cores_conquered_by_others = {
 			stavelot
 		}
 
