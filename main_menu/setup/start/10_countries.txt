@@ -13377,8 +13377,12 @@ countries = {
 			tarragona flix lleida montblanc tarrega tortosa
 			vic berga cardona cervera manresa
             prades puigcerda
-			seu_durgell agramunt balaguer talarn vielha
+			seu_durgell agramunt balaguer talarn
 		}
+
+        own_control_integrated = {
+            vielha
+        }
 
 		starting_technology_level = 3
 		include = "expl_mediterranean"
