@@ -1625,7 +1625,7 @@ countries = {
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
+		include = "catholic_monarchy_not_present"
 		include = "expl_northern_europe"
 		include = "german_principality"
 		government = {
@@ -8802,7 +8802,7 @@ countries = {
 		include = "expl_silk_road_center"
 		include = "expl_silk_road_east"
 		include = "expl_indian_trade_route"
-		include = "catholic_republic_no_coast"
+		include = "catholic_republic_not_present"
 		government = {
 			type = republic
 			heir_selection = oligarchic_elective
@@ -9076,7 +9076,7 @@ countries = {
 		include = "expl_silk_road_center"
 		include = "expl_silk_road_east"
 		include = "expl_indian_trade_route"
-		include = "catholic_republic_no_coast"
+		include = "catholic_republic_not_present"
 		government = {
 			type = republic
 			heir_selection = oligarchic_elective
@@ -9102,7 +9102,7 @@ countries = {
 		include = "expl_silk_road_center"
 		include = "expl_silk_road_east"
 		include = "expl_indian_trade_route"
-		include = "catholic_republic_no_coast"
+		include = "catholic_republic_not_present"
 		government = {
 			type = republic
 			heir_selection = oligarchic_elective
@@ -9320,7 +9320,7 @@ countries = {
 		include = "expl_silk_road_center"
 		include = "expl_silk_road_east"
 		include = "expl_indian_trade_route"
-		include = "catholic_monarchy_no_coast"
+		include = "catholic_monarchy_not_present"
 		government = {
 			type = monarchy
 			heir_selection = partition_inheritance
@@ -9424,7 +9424,7 @@ countries = {
 		include = "expl_silk_road_center"
 		include = "expl_silk_road_east"
 		include = "expl_indian_trade_route"
-		include = "catholic_republic_no_coast"
+		include = "catholic_republic_not_present"
 		government = {
 			type = republic
 			heir_selection = oligarchic_elective
@@ -9497,7 +9497,7 @@ countries = {
 			arpitan
 		}
 
-		include = "catholic_bishopric_no_coast"
+		include = "catholic_bishopric_not_present"
 		starting_technology_level = 3
 		include = "expl_mediterranean"
 		include = "expl_silk_road_west"
@@ -9601,7 +9601,7 @@ countries = {
 		include = "expl_silk_road_center"
 		include = "expl_silk_road_east"
 		include = "expl_indian_trade_route"
-		include = "catholic_monarchy"
+		include = "catholic_monarchy_not_present"
 		government = {
 			ruler = crr_giorgio_del_carretto
 			consort = crr_leonora_fieschi
@@ -10286,7 +10286,7 @@ countries = {
 		include = "expl_silk_road_center"
 		include = "expl_silk_road_east"
 		include = "expl_indian_trade_route"
-		include = "catholic_monarchy_no_coast"
+		include = "catholic_monarchy_not_present"
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
@@ -10481,7 +10481,7 @@ countries = {
 		include = "expl_silk_road_center"
 		include = "expl_silk_road_east"
 		include = "expl_indian_trade_route"
-		include = "catholic_republic_no_coast"
+		include = "catholic_republic_not_present"
 		government = {
 			type = republic
 			heir_selection = podesta_elective
@@ -11334,7 +11334,7 @@ countries = {
 		include = "expl_silk_road_center"
 		include = "expl_silk_road_east"
 		include = "expl_indian_trade_route"
-		include = "catholic_monarchy_no_coast"
+		include = "catholic_monarchy_not_present"
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
@@ -11440,7 +11440,7 @@ countries = {
 		include = "expl_silk_road_center"
 		include = "expl_silk_road_east"
 		include = "expl_indian_trade_route"
-		include = "catholic_monarchy_no_coast"
+		include = "catholic_monarchy_not_present"
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
@@ -14761,13 +14761,11 @@ countries = {
 		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast_no_censor"
+		include = "catholic_monarchy_not_present"
 
 		government = {
 			ruler = ale_charles_ii_valois
-			reforms = {
-				french_appanage_reform
-			}
+
 
 			ruler_term = { character = ale_pierre_i_capet start_date = 1268.3.1 end_date = 1283.4.6 regnal_number = 1 }
 
@@ -14795,7 +14793,7 @@ countries = {
 		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast_no_censor"
+		include = "catholic_monarchy_not_present"
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
@@ -14804,9 +14802,7 @@ countries = {
 			start_regency_date = 1332.8.6
 			end_regency_date = 1344.5.8
 			heir = auv_jeanne_auvergne
-			reforms = {
-				french_appanage_reform
-			}
+
 
 			ruler_term = { character = auv_gui_i_auvergne start_date = 979.1.1 end_date = 989.1.1 regnal_number = 1 }
 			ruler_term = { character = auv_guilhem_iv_auvergne start_date = 989.1.1 end_date = 1016.1.1 regnal_number = 4 }
@@ -15006,14 +15002,11 @@ countries = {
 		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
+		include = "catholic_monarchy_not_present"
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
 			ruler = bou_louis_i_bourbon
-			reforms = {
-				french_appanage_reform
-			}
 
 			ruler_term = { character = bou_archambaud_viii_bourbon start_date = 1228.7.18 end_date = 1242.7.23 regnal_number = 8 }
 			ruler_term = { character = bou_archambaud_ix_bourbon start_date = 1242.7.23 end_date = 1249.1.22 regnal_number = 9 }
@@ -15107,14 +15100,12 @@ countries = {
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
+		include = "catholic_monarchy_not_present"
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
 			ruler = aux_jean_ii_chalon
-			reforms = {
-				french_appanage_reform
-			}
+
 
 			ruler_term = { character = lat_pierre_ii_courtenay start_date = 1184.1.1 end_date = 1193.2.6 regnal_number = 1 }
 			ruler_term = { character = nev_mathilde_i_courtenay start_date = 1193.2.6 end_date = 1199.10.1 regnal_number = 1 }
@@ -15178,7 +15169,7 @@ countries = {
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
+		include = "catholic_monarchy_not_present"
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
@@ -15208,9 +15199,6 @@ countries = {
 				name_john = 2
 			}
 
-			reforms = {
-				french_appanage_reform
-			}
 		}
 		capital = sancerre
 	}
@@ -15407,14 +15395,11 @@ countries = {
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
+		include = "catholic_monarchy_not_present"
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
 			ruler = dre_pierre_i_dreux
-			reforms = {
-				french_appanage_reform
-			}
 
 			ruler_term = { character = bls_eudes_i_blois start_date = 991.1.1 end_date = 996.3.12 regnal_number = 1 }
 			ruler_term = { character = chp_eudes_i_blois start_date = 996.3.12 end_date = 1022.1.1 regnal_number = 2 }
@@ -15628,7 +15613,7 @@ countries = {
 		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
+		include = "catholic_monarchy_not_present"
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
@@ -16285,7 +16270,7 @@ countries = {
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
+		include = "catholic_monarchy_not_present"
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
@@ -16383,7 +16368,7 @@ countries = {
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast_no_censor"
+		include = "catholic_monarchy_not_present"
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
@@ -34823,7 +34808,7 @@ countries = {
 		}
 		starting_technology_level = 3
 		include = "expl_mediterranean"
-		include = "catholic_monarchy_no_coast"
+		include = "catholic_monarchy_not_present"
 		government = { ruler = sav_aymon_savoy }
 		country_rank = rank_duchy
 		capital = aosta
@@ -35141,7 +35126,7 @@ countries = {
 		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
+		include = "catholic_monarchy_not_present"
 		include = "expl_northern_europe"
 		include = "german_principality"
 		government = {
@@ -35186,7 +35171,7 @@ countries = {
 		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
+		include = "catholic_monarchy_not_present"
 		include = "expl_northern_europe"
 		include = "german_principality"
 		government = {
@@ -35274,7 +35259,7 @@ countries = {
 		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "expl_northern_europe"
-		include = "catholic_monarchy_no_coast"
+		include = "catholic_monarchy_not_present"
 		include = "german_principality"
 		government = { ruler = random }
 		tolerated_cultures = {
@@ -35306,7 +35291,7 @@ countries = {
 		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "expl_northern_europe"
-		include = "catholic_german_republic_no_coast"
+		include = "catholic_republic_not_present"
 		government = { ruler = random }
 		country_rank = rank_county
 		capital = strasbourg
@@ -35319,7 +35304,7 @@ countries = {
 		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "expl_northern_europe"
-		include = "catholic_monarchy_no_coast"
+		include = "catholic_monarchy_not_present"
 		include = "german_principality"
 		government = {
 			ruler = lic_johann_ii_von_lichtenberg
@@ -35360,7 +35345,7 @@ countries = {
 		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "expl_northern_europe"
-		include = "catholic_german_bishopric_no_coast"
+		include = "catholic_bishopric_not_present"
 		government = { ruler = random }
 		country_rank = rank_county
 		capital = murbach
@@ -35373,7 +35358,7 @@ countries = {
 		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "expl_northern_europe"
-		include = "catholic_german_republic_no_coast"
+		include = "catholic_republic_not_present"
 		government = { ruler = random }
 		country_rank = rank_county
 		capital = haguenau
@@ -35518,7 +35503,7 @@ countries = {
 		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "expl_northern_europe"
-		include = "catholic_monarchy_no_coast"
+		include = "catholic_monarchy_not_present"
 		include = "german_principality"
 		government = { ruler = random }
 		country_rank = rank_county
@@ -36032,7 +36017,7 @@ countries = {
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		include = "catholic_german_bishopric_no_coast"
+		include = "catholic_bishopric_not_present"
 		include = "expl_northern_europe"
 		capital = bruchsal
 		government = {
@@ -36052,7 +36037,7 @@ countries = {
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
+		include = "catholic_monarchy_not_present"
 		include = "expl_northern_europe"
 		include = "german_principality"
 		government = {
@@ -36222,7 +36207,7 @@ countries = {
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		include = "catholic_german_republic_no_coast"
+		include = "catholic_republic_not_present"
 		include = "expl_northern_europe"
 		government = {
 			ruler = random
@@ -36257,7 +36242,7 @@ countries = {
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		include = "catholic_german_bishopric_no_coast"
+		include = "catholic_bishopric_not_present"
 		include = "expl_northern_europe"
 		government = {
 			ruler = als_berthold_ii_buchegg
@@ -37733,7 +37718,7 @@ countries = {
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		include = "catholic_german_bishopric_no_coast"
+		include = "catholic_bishopric_not_present"
 		include = "expl_northern_europe"
 		country_rank = rank_duchy
 		government = {
@@ -37862,7 +37847,7 @@ countries = {
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
+		include = "catholic_monarchy_not_present"
 		include = "expl_northern_europe"
 		include = "german_principality"
 		government = {
@@ -37888,7 +37873,7 @@ countries = {
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
+		include = "catholic_monarchy_not_present"
 		include = "expl_northern_europe"
 		include = "german_principality"
 		government = {
@@ -37915,7 +37900,7 @@ countries = {
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
+		include = "catholic_monarchy_not_present"
 		include = "expl_northern_europe"
 		include = "german_principality"
 		government = {
@@ -38003,7 +37988,7 @@ countries = {
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
+		include = "catholic_monarchy_not_present"
 		include = "expl_northern_europe"
 		include = "german_principality"
 		government = {
@@ -38071,7 +38056,7 @@ countries = {
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
+		include = "catholic_monarchy_not_present"
 		include = "expl_northern_europe"
 		include = "german_principality"
 		government = {
@@ -38972,7 +38957,7 @@ countries = {
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
+		include = "catholic_monarchy_not_present"
 		include = "expl_northern_europe"
 		include = "german_principality"
 		capital = montmedy
@@ -39005,7 +38990,7 @@ countries = {
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
+		include = "catholic_monarchy_not_present"
 		include = "german_principality"
 		capital = limbourg
 		dynasty = reginar_dynasty
@@ -39116,7 +39101,7 @@ countries = {
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
+		include = "catholic_monarchy_not_present"
 		include = "german_principality"
 		capital = maastricht
 		dynasty = heinsberg_dynasty
@@ -39142,7 +39127,7 @@ countries = {
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
+		include = "catholic_monarchy_not_present"
 		include = "german_principality"
 		dynasty = heinsberg_dynasty
 		government = {
@@ -39168,7 +39153,7 @@ countries = {
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
+		include = "catholic_monarchy_not_present"
 		include = "german_principality"
 		government = {
 

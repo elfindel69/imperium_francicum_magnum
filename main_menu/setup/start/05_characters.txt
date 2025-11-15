@@ -8713,7 +8713,7 @@ character_db={
 		birth = paris
 		father = fra_philippe_v_capet
 		mother = fra_jeanne_ii_chalon_burgundy
-		spouse = bur_eudes_iv_burgundy
+		#spouse = bur_eudes_iv_burgundy
 		dynasty = capet_dynasty
 		tag = FCB
 	}
@@ -9520,7 +9520,7 @@ character_db={
 		birth = paris
 		father = fra_louis_ix_capet
 		#mother = Marguerite de Provence
-		spouse = bur_robert_ii_burgundian
+		#spouse = bur_robert_ii_burgundian
 		dynasty = capet_dynasty
 		tag = BUR
 		ruler_trait = righteous
@@ -10530,7 +10530,7 @@ character_db={
 		birth = dreux
 		father = dre_robert_iii_dreux
 		#mother = Aénor de Saint-Valery
-		spouse = bur_hugues_iv_burgundian
+		#spouse = bur_hugues_iv_burgundian
 		dynasty = dreux_dynasty
 		tag = BUR
 	}
@@ -18477,7 +18477,7 @@ character_db={
 		birth = bourbon
 		father = bou_archambaud_ix_bourbon
 		mother = bou_yolande_chatillon
-		spouse = bur_eudes_burgundian
+		#spouse = bur_eudes_burgundian
 		dynasty = dampierre_dynasty # Should be dynasty = dampierre_bourbon_dynasty
 		tag = BOU
 	}
@@ -18493,7 +18493,7 @@ character_db={
 		birth = bourbon
 		father = bou_archambaud_ix_bourbon
 		mother = bou_yolande_chatillon
-		spouse = bur_jean_burgundian
+		#spouse = bur_jean_burgundian
 		dynasty = dampierre_dynasty # Should be dynasty = dampierre_bourbon_dynasty
 		tag = BUR
 	}
@@ -24234,7 +24234,7 @@ character_db={
 		birth = faucigny
 		father = sav_pierre_ii_savoy
 		#mother = Agnès de Faucigny
-		spouse = dau_guigues_vii_viennois
+		#spouse = dau_guigues_vii_viennois
 		dynasty = savoy_dynasty # Used maternal dynasty (Faucigny)
 		tag = SAV
 	}
@@ -27324,7 +27324,7 @@ character_db={
 		birth = casale
 		father = mfa_guglielmo_vi_monferrato
 		#mother = Berta di Clavesana
-		spouse = dau_andre_dauphin_bourgogne
+		#spouse = dau_andre_dauphin_bourgogne
 		dynasty = aleramici_dynasty
 		tag = DAU
 	}			
@@ -78442,7 +78442,7 @@ adm = 31 dip = 34 mil = 24
 		birth = andravida
 		father = ach_florent_avesnes
 		#mother = Isabelle de Villehardouin
-		spouse = ach_louis_burgundy
+		#spouse = ach_louis_burgundy
 		dynasty = avesnes_dynasty
 		tag = ACH
 		ruler_trait = calm
