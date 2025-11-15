@@ -37714,31 +37714,6 @@ countries = {
 		capital = wetzlar
 	}
 
-	TRI = {	#Trier
-        our_cores_conquered_by_others = {
-			trier wittlich
-			mayen coblenz saarburg
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_bishopric_not_present"
-		include = "expl_northern_europe"
-		country_rank = rank_duchy
-		government = {
-			ruler = tri_balduin_von_luxembourg
-
-			ruler_term = { character = tri_balduin_von_luxembourg start_date = 1307.11.23 regnal_number = 1 }
-		}
-
-		tolerated_cultures = {
-			rhine_franconian
-			ripuarian_franconian
-		}
-
-		capital = trier
-	}
-
 	DIE = {	#Diez
 		own_control_core = {
 			diez
