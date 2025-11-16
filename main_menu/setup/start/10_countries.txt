@@ -14243,10 +14243,10 @@ countries = {
                 lille douai tournai
 
                 la_mothe_en_bassigny bar_le_duc clermont_en_argonne
-                saint_mihiel longwy #HRE
+                #HRE
                 # own_control_integrated, but culture accepted
 
-                ligny etain
+                ligny
                 mirande
                 muret aspet saint_lizier
                 lisle_jourdain
@@ -14278,11 +14278,7 @@ countries = {
                 abbeville montreuil #Ponthieu
 
 
-                toul
-                verdun fresnes
 
-                metz epinal sarrebourg vic_sur_seille
-                saint_avold
                 belfort ferrette
                 mulhouse
                 ensisheim #Lordship of Upper Alsace
@@ -14296,13 +14292,13 @@ countries = {
                 zabern oberkirch benfeld
                 strasbourg
                 bouillon
-                saarbrucken
-                salm
+
+
                 haguenau
                 lichtenberg
                 offenburg
-                saarwerden
-                zweibrucken bitche pirmasens
+
+                zweibrucken pirmasens
 
                 weert
                 roermond
@@ -15557,6 +15553,15 @@ countries = {
 			wallerfangen merzig
 			darney arches
 			luneville morhange sarreguemines
+            toul
+            verdun fresnes
+
+            metz epinal sarrebourg vic_sur_seille
+            saint_avold
+            saarwerden
+            etain
+            saint_mihiel longwy salm saarbrucken
+            bitche
 		}
 
 		starting_technology_level = 3
