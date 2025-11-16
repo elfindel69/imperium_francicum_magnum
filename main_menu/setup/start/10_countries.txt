@@ -14279,23 +14279,17 @@ countries = {
 
 
 
-                belfort ferrette
-                mulhouse
-                ensisheim #Lordship of Upper Alsace
-                colmar
+
                 angers chateau_gontier bauge saumur
                 beaupreau le_lude passavant
                 cambrai
                 mouzon
                 montmedy
-                murbach
-                zabern oberkirch benfeld
-                strasbourg
+
                 bouillon
 
 
-                haguenau
-                lichtenberg
+
                 offenburg
 
                 zweibrucken pirmasens
@@ -15601,12 +15595,18 @@ countries = {
 				name_theobald = 2
 				name_ralph = 1
 			}
+
+            reforms = {
+                french_ducal_vassal_reform
+            }
 		}
 
 		tolerated_cultures = {
 			rhine_franconian
 			moselle_franconian
 		}
+
+
 
 		capital = nancy
 	}
@@ -36245,22 +36245,34 @@ countries = {
 	}
 
 	ALS = { #Strasbourg
-        our_cores_conquered_by_others = {
+        own_control_core = {
 			zabern oberkirch benfeld
+            belfort ferrette
+            mulhouse
+            ensisheim #Lordship of Upper Alsace
+            colmar
+            murbach
+            zabern oberkirch benfeld
+            strasbourg
+            haguenau
+            lichtenberg
 		}
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		include = "catholic_bishopric_not_present"
+		include = "catholic_monarchy_no_coast"
 		include = "expl_northern_europe"
+        country_rank = rank_duchy
 		government = {
 			ruler = als_berthold_ii_buchegg
+            type = monarchy
+            heir_selection = cognatic_primogeniture
 
 			ruler_term = { character = als_berthold_ii_buchegg start_date = 1328.11.6 regnal_number = 2 }
 			#The city itself is however under the Burghers' control
-			reforms = {
-				prince_bishopric_reform
-			}
+            reforms = {
+                french_ducal_vassal_reform
+            }
 
 			regnal_numbers = {
 				name_amando = 1
