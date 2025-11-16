@@ -14288,7 +14288,7 @@ countries = {
 
                 bouillon
 
-
+                oberkirch
 
                 offenburg
 
@@ -36246,13 +36246,12 @@ countries = {
 
 	ALS = { #Strasbourg
         own_control_core = {
-			zabern oberkirch benfeld
+			zabern  benfeld
             belfort ferrette
             mulhouse
             ensisheim #Lordship of Upper Alsace
             colmar
             murbach
-            zabern oberkirch benfeld
             strasbourg
             haguenau
             lichtenberg
