@@ -11525,10 +11525,7 @@ countries = {
 			ruler = sav_louis_ii_savoy_vaud
 
 			ruler_term = { character = sav_pierre_ii_savoy start_date = 1234.1.1 end_date = 1268.5.16 regnal_number = 1 }
-			ruler_term = {
-				character = sav_beatrix_faucigny start_date = 1268.5.16 end_date = 1271.1.1 regnal_number = 1
-				character = dau_guigues_vii_viennois start_date = 1268.5.16 end_date = 1271.1.1 regnal_number = 1 # As Marital Co-Ruler
-			}
+			ruler_term = { character = sav_beatrix_faucigny start_date = 1268.5.16 end_date = 1271.1.1 regnal_number = 1 }
 			ruler_term = { character = sav_philippe_i_savoy_achaia start_date = 1271.1.1 end_date = 1281.9.1 regnal_number = 1 }
 			ruler_term = { character = sav_louis_i_savoy_vaud start_date = 1281.9.1 end_date = 1302.1.13 regnal_number = 1 }
 			ruler_term = { character = sav_louis_ii_savoy_vaud start_date = 1302.1.13 regnal_number = 2 }
@@ -12340,11 +12337,7 @@ countries = {
 
 			ruler_term = { character = mll_ferdinand_mallorca start_date = 1315.6.1 end_date = 1316.7.5 regnal_number = 1 }
 
-			ruler_term = {
-				character = ach_mathilde_avesnes start_date = 1316.7.5 end_date = 1316.8.2 regnal_number = 1 # Restored
-				character = ach_louis_burgundy start_date = 1316.7.5 end_date = 1316.8.2 regnal_number = 1 # Restored as Marital Co-Ruler
-			}
-			ruler_term = { character = ach_mathilde_avesnes start_date = 1316.8.2 end_date = 1318.1.1 regnal_number = 1 } # Restored
+			ruler_term = { character = ach_mathilde_avesnes start_date = 1316.7.5 end_date = 1318.1.2 regnal_number = 1 } # Restored
 			ruler_term = {
 				character = ach_mathilde_avesnes start_date = 1318.1.1 end_date = 1331.1.1 regnal_number = 1 # Restored
 				character = alb_john_gravina start_date = 1318.1.1 end_date = 1331.1.1 regnal_number = 1
@@ -13390,7 +13383,7 @@ countries = {
 		include = "expl_silk_road_center"
 		include = "expl_silk_road_east"
 		include = "expl_indian_trade_route"
-		include = "catholic_monarchy_not_present"
+		include = "catholic_monarchy"
 
 		country_rank = rank_duchy
 
@@ -14273,9 +14266,6 @@ countries = {
                 angers chateau_gontier bauge saumur
                 beaupreau le_lude passavant
 
-                # --- Normandie périphérique ---
-                mortain
-
                 # --- Artois / Flandre / Boulonnais / Ponthieu ---
                 lille douai tournai               # Flanders / Wallonie romane
                 arras bapaume bethune calais hesdin lens saint_omer
@@ -15012,16 +15002,12 @@ countries = {
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
-			ruler = bou_louis_i_bourbon
 
 			ruler_term = { character = bou_archambaud_viii_bourbon start_date = 1228.7.18 end_date = 1242.7.23 regnal_number = 8 }
 			ruler_term = { character = bou_archambaud_ix_bourbon start_date = 1242.7.23 end_date = 1249.1.22 regnal_number = 9 }
 			ruler_term = { character = bou_mathilde_ii_bourbon start_date = 1249.1.22 end_date = 1262.1.1 regnal_number = 2 }
 			ruler_term = { character = bur_agnes_bourbon start_date = 1262.1.1 end_date = 1287.1.1 regnal_number = 1 }
 
-			ruler_term = { character = bou_beatrice_burgundian start_date = 1287.1.1 end_date = 1310.10.1 regnal_number = 1 }
-
-			ruler_term = { character = bou_louis_i_bourbon start_date = 1310.10.1 regnal_number = 1 }
 
 			regnal_numbers = {
 				name_louis = 1
@@ -15110,7 +15096,6 @@ countries = {
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
-			ruler = aux_jean_ii_chalon
 
 
 			ruler_term = { character = lat_pierre_ii_courtenay start_date = 1184.1.1 end_date = 1193.2.6 regnal_number = 1 }
@@ -15125,19 +15110,6 @@ countries = {
 				character = frz_guigues_iv_albon start_date = 1226.1.1 end_date = 1241.10.29 regnal_number = 1 # Marital Co-Ruler
 			}
 			ruler_term = { character = nev_mathilde_i_courtenay start_date = 1241.10.29 end_date = 1257.7.29 regnal_number = 1 }
-			ruler_term = {
-				character = bou_mathilde_ii_bourbon start_date = 1257.7.29 end_date = 1262.1.1 regnal_number = 2
-				character = bur_eudes_burgundian start_date = 1257.7.29 end_date = 1262.1.1 regnal_number = 1 # Marital Co-Ruler
-			}
-
-			ruler_term = { character = aux_alix_i_burgundian start_date = 1262.1.1 end_date = 1266.8.4 regnal_number = 1 }
-			ruler_term = {
-				character = aux_alix_i_burgundian start_date = 1266.8.4 end_date = 1290.1.1 regnal_number = 1
-				character = aux_jean_i_chalon start_date = 1266.8.4 end_date = 1290.1.1 regnal_number = 1 # Marital Co-Ruler
-			}
-
-			ruler_term = { character = aux_guillaume_vi_chalon start_date = 1290.1.1 end_date = 1304.1.1 regnal_number = 6 }
-			ruler_term = { character = aux_jean_ii_chalon start_date = 1304.1.1 regnal_number = 2 }
 
 			regnal_numbers = {
 				name_richard = 1
@@ -16003,7 +15975,7 @@ countries = {
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
-			ruler = ton_jeanne_capet
+
 
 
 			ruler_term = { character = lat_pierre_ii_courtenay start_date = 1184.1.1 end_date = 1193.2.6 regnal_number = 1 }
@@ -16019,14 +15991,7 @@ countries = {
 			}
 			ruler_term = { character = nev_mathilde_i_courtenay start_date = 1241.10.29 end_date = 1257.7.29 regnal_number = 1 }
 
-			ruler_term = {
-				character = bou_mathilde_ii_bourbon start_date = 1257.7.29 end_date = 1262.1.1 regnal_number = 2
-				character = bur_eudes_burgundian start_date = 1257.7.29 end_date = 1262.1.1 regnal_number = 1 # Marital Co-Ruler
-			}
-			ruler_term = { character = ton_marguerite_i_burgundian start_date = 1262.1.1 end_date = 1308.9.4 regnal_number = 1 }
 
-			ruler_term = { character = aux_jean_ii_chalon start_date = 1308.9.4 end_date = 1335.1.1 regnal_number = 2 }
-			ruler_term = { character = ton_jeanne_capet start_date = 1335.1.1 regnal_number = 1 }
 
 			regnal_numbers = {
 				name_milon = 5
@@ -16211,7 +16176,7 @@ countries = {
 
 			#Poitou
 			poitiers la_roche_sur_yon montaigu thouars parthenay fontenay montmorillon
-			niort rochechouart bourganeuf chatellerau
+			niort rochechouart bourganeuf chatelleraux
 		}
 
 		include = "catholic_monarchy"
@@ -16796,7 +16761,6 @@ countries = {
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
-			ruler = fla_louis_i_dampierre
 
 
 			ruler_term = { character = lat_pierre_ii_courtenay start_date = 1184.1.1 end_date = 1193.2.6 regnal_number = 1 }
@@ -16812,23 +16776,6 @@ countries = {
 			}
 			ruler_term = { character = nev_mathilde_i_courtenay start_date = 1241.10.29 end_date = 1257.7.29 regnal_number = 1 }
 
-			ruler_term = {
-				character = bou_mathilde_ii_bourbon start_date = 1257.7.9 end_date = 1262.1.1 regnal_number = 2
-				character = bur_eudes_burgundian start_date = 1257.7.29 end_date = 1262.1.1 regnal_number = 1 # Marital Co-Ruler
-			}
-
-			ruler_term = { character = nev_yolande_i_burgundian start_date = 1262.1.1 end_date = 1266.8.4 regnal_number = 1 }
-			ruler_term = {
-				character = nev_yolande_i_burgundian start_date = 1266.8.4 end_date = 1270.8.3 regnal_number = 1
-				character = vls_jean_tristan_capet start_date = 1266.8.4 end_date = 1270.8.3 regnal_number = 1 # Marital Co-Ruler
-			}
-			ruler_term = { character = nev_yolande_i_burgundian start_date = 1270.8.3 end_date = 1272.1.1 regnal_number = 1 }
-			ruler_term = {
-				character = nev_yolande_i_burgundian start_date = 1272.1.1 end_date = 1280.6.2 regnal_number = 1
-				character = fla_robert_iii_dampierre start_date = 1272.1.1 end_date = 1280.6.2 regnal_number = 1 # Marital Co-Ruler
-			}
-			ruler_term = { character = nev_louis_i_dampierre start_date = 1280.6.2 end_date = 1322.7.22 regnal_number = 1 }
-			ruler_term = { character = fla_louis_i_dampierre start_date = 1322.7.22 regnal_number = 2 }
 
 			regnal_numbers = {
 				#Seguin = 2
@@ -34537,7 +34484,7 @@ countries = {
 	}
 
 	PAL = {	#The Palatinate
-        our_own_core = {
+        own_control_core = {
             amberg eschenbach neumarkt roding sulzbach #Oberpfalz
         }
         our_cores_conquered_by_others = {
