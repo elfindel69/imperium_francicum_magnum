@@ -166,7 +166,7 @@ diplomacy_manager = {
 
     #Vassals
 
-    dependency = { first = FRA second = FLA subject_type = vassal start_date = 1305.6.23 } #Reined in as a vassal of France by the Treaty of Athis-sur-Orge in 1305, confirmed after the Battle of Cassel in 132
+    dependency = { first = FRA second = FLA subject_type = vassal }
     dependency = { first = FRA second = SAV subject_type = vassal }
     dependency = { first = FRA second = PRO subject_type = vassal }
     dependency = { first = FRA second = DAU subject_type = vassal }
