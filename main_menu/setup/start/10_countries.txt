@@ -10620,7 +10620,10 @@ countries = {
 
     MTL = {
         own_control_core = {
-            alba mondovi ceva cairo_montenotte finalborgo albenga ventimiglia asti alessandria
+            alba mondovi ceva cairo_montenotte
+            finalborgo albenga ventimiglia
+            asti alessandria
+            acqui chieri
         }
 
         starting_technology_level = 3
@@ -11472,7 +11475,7 @@ countries = {
 	PIE = {
         own_control_core = {
             ivrea
-            lanzo casale acqui
+            lanzo casale
             pinerolo susa turin
             carmagnola saluzzo
 		}
@@ -14362,13 +14365,6 @@ countries = {
                 kreuznach birkenfeld castellaun
                 baden durlach
 
-                # ================================
-                # Italian Alpine & Piedmont–Liguria frontier
-                # (future Savoy / Piedmont / Montferrat–Liguria fiefdoms)
-                # ================================
-
-
-
             }
 
 			own_control_conquered = {
@@ -14450,7 +14446,7 @@ countries = {
 					name_philip = 1
 					name_robert = 2
 					name_lothar = 2
-					name_attila = 1
+					Attila = 1
 					name_sigmund = 1
 					name_archibald = 1
 					name_arnold = 1
