@@ -14125,58 +14125,64 @@ countries = {
 		#France
 
 		FRA = {
-			own_control_core = {
-				paris brie_comte_robert corbeil montmorency
-				amiens breteuil corbie nesle peronne
-				clermont montargis sens saint_florentin senlis nemours melun
-				beauvais saint_quentin noyon la_rochelle
-				ribemont laon
-				cahors mirepoix limoux carcassonne lavaur castelnaudary condom nerac bazas agen
-				bergerac montauban albi millau saint_pons beziers agde sauveterre_de_guyenne
-				figeac villefranche chaumont_vexin
-				bar_sur_seine
-				limeuil sarlat marmande montflanquin
-				braine loudun
-				mauriac riom tour_auvergne brioude saint_flour vodable
-				montaigut herment
+            own_control_core = {
+                # Domaine royal - Île-de-France
+                paris brie_comte_robert corbeil montmorency senlis nemours melun
+                clermont montargis sens saint_florentin
 
-				tours chinon loches chatillon_sur_indre #D. de Touraine
+                # Picardy / Vermandois
+                amiens breteuil corbie nesle peronne beauvais saint_quentin noyon
+                ribemont laon chaumont_vexin
 
-				soissons crepy #Valois (Own by the ruler)
+                # Aunis / Poitou fringe
+                la_rochelle braine loudun bar_sur_seine
 
-				chartres auneau #C. Chartres
-				tulle #Limousin
-				limoges nontron segur st_leonard aixe thiviers #Vic. Limoges
-				turenne gourdon #Vic.Turenne
-				mende #C. de Gevaudan
-				langres grancey #D. de Langres
+                # Quercy / Auvergne / Rouergue
+                cahors figeac villefranche mauriac riom tour_auvergne brioude saint_flour
+                vodable montaigut herment
 
-				beaujeu perreux trevoux #S.de Beaujeu
-				lyon riverie #C. de Lyon
-				le_puy #C. du Velay
-				viviers # C. de Viviers
-				nimes uzes melgueil
-				french_ales #S. Ales
-				chambon #B. de Combraille
-				chalons_champagne #C. de Chalon
-				reims #D. Reims
+                # Languedoc / Gascogne / Guyenne
+                mirepoix limoux carcassonne lavaur castelnaudary condom nerac bazas agen
+                bergerac montauban albi millau saint_pons beziers agde sauveterre_de_guyenne
+                limeuil sarlat marmande montflanquin
 
-				amboise #S.
+                tours chinon loches chatillon_sur_indre #D. de Touraine
 
-				orleans sully vitry_aux_loges #D. de Orleans, Appanage in 1344
+                soissons crepy #Valois (Own by the ruler)
 
-				issoudun bourges lignieres sancoins vierzon #Berry(On October 1360, King John II created the title)
+                chartres auneau #C. Chartres
+                tulle #Limousin
+                limoges nontron segur st_leonard aixe thiviers #Vic. Limoges
+                turenne gourdon #Vic.Turenne
+                mende #C. de Gevaudan
+                langres grancey #D. de Langres
 
-				chateauroux boussac #S. de Chateauroux
+                beaujeu perreux trevoux #S.de Beaujeu
+                lyon riverie #C. de Lyon
+                le_puy #C. du Velay
+                viviers # C. de Viviers
+                nimes uzes melgueil
+                french_ales #S. Ales
+                chambon #B. de Combraille
+                chalons_champagne #C. de Chalon
+                reims #D. Reims
 
-				tarbes #C. Bigorre
-				lodeve #C. Lodeve
+                amboise #S.
 
-				fenouillet toulouse verdun_sur_garonne villemur
-				meaux
-				provins
-				peyrusse entraigues st_affrique
-				allegre chalancon peyre chateauneuf_de_randon florac st_ambroix
+                orleans sully vitry_aux_loges #D. de Orleans, Appanage in 1344
+
+                issoudun bourges lignieres sancoins vierzon #Berry(On October 1360, King John II created the title)
+
+                chateauroux boussac #S. de Chateauroux
+
+                tarbes #C. Bigorre
+                lodeve #C. Lodeve
+
+                fenouillet toulouse verdun_sur_garonne villemur
+                meaux
+                provins
+                peyrusse entraigues st_affrique
+                allegre chalancon peyre chateauneuf_de_randon florac st_ambroix
 
                 poitiers la_roche_sur_yon montaigu thouars parthenay fontenay montmorillon
                 niort bourganeuf chatellerault brosse lusignan aulnay st_jean_dangely
@@ -14206,7 +14212,6 @@ countries = {
 
                 mantes #Ile de France
 
-
                 dreux
                 vendome
                 etampes #C. de Etampes
@@ -14215,89 +14220,93 @@ countries = {
                 monfort_lamaury
                 belleme mortagne senonches
 
-			}
-			own_control_integrated = {
-                # own_control_integrated, but culture accepted
-                joigny #C. de Joigny
+            }
+            own_control_integrated = {
+                # --- Bourgogne / Berry fringe ---
+                joigny                   # C. de Joigny
+                auxerre                  # Bourgogne
+                sancerre                 # Berry
+                tonnerre                 # C. de Tonnerre
+
+                # --- Auvergne / Bourbonnais / Haute-Auvergne ---
                 vic_le_comte
-                ventadour ussel
-                rochechouart
-                aurillac
-                angouleme cognac chabanais #C. Angouleme
                 bourbon molins huriel montlucon vichy
                 jaligny st_gerand
-                # own_control_integrated, but culture accepted
-                clermont_en_beauvaisis #C. Clermont-en-Beauvaisis
-                bellac charroux gueret aubusson #La Marche
-                auxerre
-                sancerre
-                oloron orthez pau #Vic. of Béarn
-                mont_de_marsan aire #Vic. of Mont-de-Marsan
-                auch nogaro rodez
-                lectoure #Vic. de Lomagne
-                lautrec #Vic. de Lautrec
+                aurillac
 
-                castres #S. de Castres
-                foix pamiers
+                # --- Limousin / La Marche / Haut-Poitou ---
+                ventadour ussel
+                rochechouart
+                bellac charroux gueret aubusson   # La Marche
 
-                lille douai tournai
+                # --- Angoumois & Saintonge intérieur ---
+                angouleme cognac chabanais        # C. Angoulême
 
-                la_mothe_en_bassigny bar_le_duc clermont_en_argonne
-                #HRE
-                # own_control_integrated, but culture accepted
+                # --- Picardie intérieure / Beauvaisis ---
+                clermont_en_beauvaisis            # C. Clermont-en-Beauvaisis
+                aumale                            # C. d’Aumale
+                roucy                             # S. de Roucy
 
-                ligny
+                # --- Béarn, Gascogne & Armagnac area ---
+                oloron orthez pau                 # Vic. of Béarn
+                mont_de_marsan aire               # Vic. of Mont-de-Marsan
                 mirande
-                muret aspet saint_lizier
+                auch nogaro rodez
+                lectoure                          # Vic. de Lomagne
                 lisle_jourdain
+                muret aspet saint_lizier          # Comminges / Pyrénées
+                foix pamiers                      # C. de Foix
+                castres                           # S. de Castres
+                lautrec                           # Vic. de Lautrec
+
+                # --- Dauphiné / Vivarais / Rhône moyen ---
                 valence die privas montlaur condorcet
+                tournon                           # S. de Tournon
 
-                # own_control_integrated, but culture accepted
-                tournon #S. de Tournon
+                # --- Périgord & Haut-Agenais ---
                 perigueux riberac
-                tonnerre
 
-                aumale
-                roucy
-
+                # --- Maine & Anjou (integrated but not core domain) ---
                 mayenne le_mans laval sainte_suzanne beaumont_au_maine
                 sable villaines
                 chateau_du_loir st_calais
+                angers chateau_gontier bauge saumur
+                beaupreau le_lude passavant
 
+                # --- Normandie périphérique ---
                 mortain
+
+                # --- Artois / Flandre / Boulonnais / Ponthieu ---
+                lille douai tournai               # Flanders / Wallonie romane
                 arras bapaume bethune calais hesdin lens saint_omer
                 saint_pol
                 boulogne_sur_mer
-                rethel #C. Rethel
-                chateau_porcien #C. Porcien, vassal of Rethiel
-                narbonne
-                orange
-                perpignan #County of Roselló
-                montpellier #Lordship of Montpellier
+                abbeville montreuil               # Ponthieu
 
-                abbeville montreuil #Ponthieu
-
-
-
-
-                angers chateau_gontier bauge saumur
-                beaupreau le_lude passavant
-                cambrai
+                # --- Champagne / Barrois / Ardennes ---
+                la_mothe_en_bassigny bar_le_duc clermont_en_argonne
+                ligny
+                rethel                             # C. Rethel
+                chateau_porcien                    # C. Porcien, vassal of Rethel
                 mouzon
                 montmedy
-
                 bouillon
 
-                oberkirch
+                # --- Languedoc & Roussillon littoral ---
+                narbonne
+                orange
+                perpignan                          # County of Roselló
+                montpellier                        # Lordship of Montpellier
 
-                offenburg
+                # --- Cambresis & frontière nord-est ---
+                cambrai
 
+                # ================================
+                # Rhenish & German frontier (to be handed to BRB/LUX/HAI/etc. later)
+                # ================================
+                oberkirch offenburg
                 zweibrucken pirmasens
-
-                weert
-                roermond
-                heinsberg
-                maastricht
+                weert roermond heinsberg maastricht
                 bergheim duren monchengladbach
                 cologne ahrweiler neuss
                 bonn
@@ -14311,8 +14320,7 @@ countries = {
                 landau_rhineland
                 bruchsal
                 speyer
-                heidelberg sinsheim germersheim neustadt_an_der_haardt oppenheim  kaiserslautern
-
+                heidelberg sinsheim germersheim neustadt_an_der_haardt oppenheim kaiserslautern
                 limbourg
                 stavelot
                 aachen
@@ -14321,7 +14329,11 @@ countries = {
                 kreuznach birkenfeld castellaun
                 baden durlach
 
-                aosta  chatillonaos morgex
+                # ================================
+                # Italian Alpine & Piedmont–Liguria frontier
+                # (future Savoy / Piedmont / Montferrat–Liguria fiefdoms)
+                # ================================
+                aosta chatillonaos morgex
                 ivrea
                 lanzo casale acqui
                 pinerolo susa turin
@@ -14337,7 +14349,7 @@ countries = {
             }
 
 			own_control_conquered = {
-			#From Flanders after the Treaty of Athis-sur-Orge
+
 			}
 
 			our_cores_conquered_by_others = {
