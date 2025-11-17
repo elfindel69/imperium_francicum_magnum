@@ -10649,10 +10649,9 @@ countries = {
             privilege = {
                 formal_guilds
             }
-
-            country_rank = rank_duchy
-            capital = alessandria
         }
+        country_rank = rank_duchy
+        capital = alessandria
         accepted_cultures = {ligurian}
     }
 
@@ -36328,8 +36327,6 @@ countries = {
 		tolerated_cultures = {
 			high_alemannic
 		}
-
-		country_rank = rank_county
 		capital = strasbourg
 	}
 

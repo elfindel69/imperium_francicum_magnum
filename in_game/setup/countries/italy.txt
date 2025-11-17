@@ -313,12 +313,6 @@ religion_definition = catholic
 
 }
 
-MTL = {
-color = rgb { 190 142 62 }
-
-culture_definition = piedmontese
-religion_definition = catholic
-}
 
 
 MLO	= { #milan
@@ -366,6 +360,13 @@ color = rgb { 240 103 103 }
 culture_definition = median
 religion_definition = catholic
 
+}
+
+MTL = {
+    color = rgb { 190 142 62 }
+
+    culture_definition = piedmontese
+    religion_definition = catholic
 }
 
 

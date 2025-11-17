@@ -1,5 +1,4 @@
-MLG={
-	custom=yes
+MTL={
 	pattern="pattern_solid.dds"
 	color1=rgb { 190 142 62 }
 	color2=rgb { 190 142 62 }
