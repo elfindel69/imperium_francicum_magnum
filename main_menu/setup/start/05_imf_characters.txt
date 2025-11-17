@@ -10,9 +10,7 @@ character_db={
         adm = 26 dip = 29 mil = 59
         birth_date = 1037.5.23
         death_date = 1109.7.29
-        birth = paris #champlive
-        #father = fra_henri_i_capet
-        #mother = Anna of Kyiv
+        birth = paris
         dynasty = lefort_dynasty
         tag = FRA
         ruler_trait = sinner
@@ -282,7 +280,6 @@ character_db={
         tag = FRA
     }
 
-    # Grandfather of the Queen of Navarra & Former King of France
     fra_attila_lefort = {
         first_name = { name = Attila }
         culture = french
@@ -335,7 +332,6 @@ character_db={
         tag = FRA
     }
 
-    # Father of the Queen of Navarra & Former King of France & Navarra
     fra_bertalan_i_lefort = {
         first_name = { name = name_bartholomew }
         culture = french
@@ -418,7 +414,6 @@ character_db={
         tag = FRA
     }
 
-    # Father of the Countess Palatine of Burgundy & Countess of Artois & Former King of France
     fra_bertalan_iii_lefort = {
         first_name = { name = name_bartholomew }
         culture = french
@@ -470,7 +465,6 @@ character_db={
         ruler_trait = lawgiver
     }
 
-    # Father of the Countess Palatine of Burgundy & Countess of Artois & Former King of France
     fra_louis_iv_lefort = {
         first_name = { name = name_louis }
         culture = french

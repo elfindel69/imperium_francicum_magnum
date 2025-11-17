@@ -11307,7 +11307,7 @@ character_db={
 		ruler_trait = zealot
     }
 
-	# Sister of the Duke of Burgundy
+	# ficitonalized
 	bur_blanche_burgundian = {
 		first_name = { name = name_blanche }
 		culture = burgundian
