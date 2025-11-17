@@ -10286,7 +10286,7 @@ countries = {
 		include = "expl_silk_road_center"
 		include = "expl_silk_road_east"
 		include = "expl_indian_trade_route"
-		include = "catholic_monarchy_not_present"
+		include = "catholic_monarchy"
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
@@ -10353,6 +10353,8 @@ countries = {
 		capital = casale
 		dynasty = palaiologos_dynasty
 	}
+
+
 
 	MLO = { #Milan
 		own_control_core = {
@@ -10615,6 +10617,44 @@ countries = {
 
 		capital = macerata
 	}
+
+    MTL = {
+        own_control_core = {
+            alba mondovi ceva cairo_montenotte finalborgo albenga ventimiglia asti alessandria
+        }
+
+        starting_technology_level = 3
+        include = "expl_mediterranean"
+        include = "expl_silk_road_west"
+        include = "expl_silk_road_center"
+        include = "expl_silk_road_east"
+        include = "expl_indian_trade_route"
+        include = "catholic_monarchy"
+
+        government = {
+            type = monarchy
+            heir_selection = cognatic_primogeniture
+            ruler = random
+
+            centralization_vs_decentralization = 30
+            traditionalist_vs_innovative = -30
+            spiritualist_vs_humanist = -50
+            aristocracy_vs_plutocracy = -60
+            mercantilism_vs_free_trade = 0
+
+            reforms = {
+                feudal_nobility
+            }
+
+            privilege = {
+                formal_guilds
+            }
+
+            country_rank = rank_duchy
+            capital = alessandria
+        }
+        accepted_cultures = {ligurian}
+    }
 
 	#Naples
 	NAP = {
@@ -11380,6 +11420,7 @@ countries = {
 			bage thoire
 			vienne
             geneve annecy la_roche_sur_foron
+            aosta chatillonaos morgex
 		}
 
 		starting_technology_level = 3
@@ -11430,8 +11471,11 @@ countries = {
 
 	#Principality of Piedmont - PIE
 	PIE = {
-        our_cores_conquered_by_others = {
-			pinerolo susa turin
+        own_control_core = {
+            ivrea
+            lanzo casale acqui
+            pinerolo susa turin
+            carmagnola saluzzo
 		}
 
 		starting_technology_level = 3
@@ -14323,19 +14367,9 @@ countries = {
                 # Italian Alpine & Piedmont–Liguria frontier
                 # (future Savoy / Piedmont / Montferrat–Liguria fiefdoms)
                 # ================================
-                aosta chatillonaos morgex
-                ivrea
-                lanzo casale acqui
-                pinerolo susa turin
-                carmagnola saluzzo
-                chieri
-                alba
-                mondovi
-                ceva
-                cairo_montenotte finalborgo
-                albenga ventimiglia
-                asti
-                alessandria
+
+
+
             }
 
 			own_control_conquered = {
