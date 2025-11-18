@@ -712,7 +712,7 @@ character_db={
         #mother = Alix de Lorraine
         dynasty = burgundy_dynasty
         tag = BUR
-        ruler_trait = peaceful
+        ruler_trait = ascetic
     }
     bur_jeanne_de_savoie = {
         first_name = { name = name_joanna }
@@ -742,7 +742,7 @@ character_db={
         #mother = Alix de Lorraine
         dynasty = burgundy_dynasty
         tag = BUR
-        ruler_trait = peaceful
+        ruler_trait = pious
     }
 
     bur_marguerite_neuchatel = {
