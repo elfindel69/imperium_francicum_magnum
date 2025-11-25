@@ -1,0 +1,8 @@
+﻿
+
+MTL = {
+    color = rgb { 190 142 62 }
+
+    culture_definition = piedmontese
+    religion_definition = catholic
+}
