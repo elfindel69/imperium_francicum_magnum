@@ -1,0 +1,4 @@
+﻿country_history = {
+    type = country
+    text = { localization_key = country_history_BUR trigger = { tag = BUR } } # Burgundy
+}

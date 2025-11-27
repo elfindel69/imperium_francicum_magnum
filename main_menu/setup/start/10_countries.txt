@@ -10726,7 +10726,7 @@ countries = {
             aix_en_provence arles brignoles marseille toulon tarascon
             apt barcelonnette forcalquier sisteron
             nice barjols castellane digne draguignan frejus grasse puget_theniers
-            cuneo
+            cuneoorange
 		}
         our_cores_conquered_by_others = {
             avignon #Controlled by the Pope, but historically owned by Naples
@@ -14181,9 +14181,8 @@ countries = {
                 vodable montaigut herment
 
                 # Languedoc / Gascogne / Guyenne
-                mirepoix limoux carcassonne lavaur castelnaudary condom nerac bazas agen
-                bergerac montauban albi millau saint_pons beziers agde sauveterre_de_guyenne
-                limeuil sarlat marmande montflanquin
+                mirepoix limoux carcassonne lavaur castelnaudary
+                albi millau saint_pons beziers agde
 
                 tours chinon loches chatillon_sur_indre #D. de Touraine
 
@@ -14245,10 +14244,6 @@ countries = {
                 thiers #S. Thiers
                 blois beaugency chateaudun romorantin st_aignan
 
-                nevers donzy
-                st_pierre_de_moutier montreuillon cercy
-                chateau_chinon #S. Chateau-Chinon
-
                 mantes #Ile de France
 
                 dreux
@@ -14261,11 +14256,7 @@ countries = {
 
             }
             own_control_integrated = {
-                # --- Bourgogne / Berry fringe ---
-                joigny                   # C. de Joigny
-                auxerre                  # Bourgogne
-                sancerre                 # Berry
-                tonnerre                 # C. de Tonnerre
+
 
                 # --- Auvergne / Bourbonnais / Haute-Auvergne ---
                 vic_le_comte
@@ -14287,10 +14278,7 @@ countries = {
                 roucy                             # S. de Roucy
 
                 # --- Béarn, Gascogne & Armagnac area ---
-                oloron orthez pau                 # Vic. of Béarn
-                mont_de_marsan aire               # Vic. of Mont-de-Marsan
-                mirande
-                auch nogaro rodez
+                nogaro rodez
                 lectoure                          # Vic. de Lomagne
                 lisle_jourdain
                 muret aspet saint_lizier          # Comminges / Pyrénées
@@ -14299,8 +14287,7 @@ countries = {
                 lautrec                           # Vic. de Lautrec
 
                 # --- Dauphiné / Vivarais / Rhône moyen ---
-                valence die privas montlaur condorcet
-                tournon                           # S. de Tournon
+                                         # S. de Tournon
 
                 # --- Périgord & Haut-Agenais ---
                 perigueux riberac
@@ -14312,25 +14299,11 @@ countries = {
                 angers chateau_gontier bauge saumur
                 beaupreau le_lude passavant
 
-                # --- Artois / Flandre / Boulonnais / Ponthieu ---
-                lille douai tournai               # Flanders / Wallonie romane
-                arras bapaume bethune calais hesdin lens saint_omer
-                saint_pol
-                boulogne_sur_mer
-                abbeville montreuil               # Ponthieu
 
-                # --- Champagne / Barrois / Ardennes ---
-                la_mothe_en_bassigny bar_le_duc clermont_en_argonne
-                ligny
-                rethel                             # C. Rethel
-                chateau_porcien                    # C. Porcien, vassal of Rethel
-                mouzon
-                montmedy
-                bouillon
 
                 # --- Languedoc & Roussillon littoral ---
                 narbonne
-                orange
+
                 perpignan                          # County of Roselló
                 montpellier                        # Lordship of Montpellier
 
@@ -14606,6 +14579,13 @@ countries = {
 			montcenis
 			aignay arnay beaune auxonne louhans
             macon #C. de Macon
+            nevers donzy
+            st_pierre_de_moutier montreuillon cercy
+            chateau_chinon #S. Chateau-Chinon
+            joigny                   # C. de Joigny
+            auxerre                  # Bourgogne
+            sancerre                 # Berry
+            tonnerre                 # C. de Tonnerre
 		}
 
 		starting_technology_level = 3
@@ -15569,6 +15549,13 @@ countries = {
             etain
             saint_mihiel longwy salm saarbrucken
             bitche
+            la_mothe_en_bassigny bar_le_duc clermont_en_argonne
+            ligny
+            rethel                             # C. Rethel
+            chateau_porcien                    # C. Porcien, vassal of Rethel
+            mouzon
+            montmedy
+            bouillon
 		}
 
 		starting_technology_level = 3
@@ -16200,6 +16187,14 @@ countries = {
             labrit
             saintes jonzac montendre oleron royan rochefort
             bayonne mauleon
+            condom nerac bazas agen
+            bergerac montauban
+            sauveterre_de_guyenne
+            limeuil sarlat marmande montflanquin
+            oloron orthez pau                 # Vic. of Béarn
+            mont_de_marsan aire               # Vic. of Mont-de-Marsan
+            mirande
+            auch
         }
 		our_cores_conquered_by_others = {
 
@@ -17150,7 +17145,9 @@ countries = {
 			mevouillon villars 
 			la_tour_du_pin 
 			faucigny sallanches #Barony of 	Faucigny
-		}
+            valence die privas montlaur condorcet
+            tournon
+        }
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -17340,10 +17337,13 @@ countries = {
 		own_control_core = {
 			cassel dunkirk oudenaarde ypres veurne
 			ostend bruges hulst ghent sint_niklaas aalst kortriik
-		}
-		our_cores_conquered_by_others = {
-			lille douai tournai
-		}
+            lille douai tournai               # Flanders / Wallonie romane
+            arras bapaume bethune calais hesdin lens saint_omer
+            saint_pol
+            boulogne_sur_mer
+            abbeville montreuil
+        }
+
 		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "catholic_monarchy_not_present"
