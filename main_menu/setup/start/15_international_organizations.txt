@@ -56,8 +56,10 @@ international_organization_manager = {
 				PAL # Palatinate
 		}
 		archbishop_elector = {
-				# The 3 bishops, TODO
+				# The 3 bishops
 				MAI # Mainz
+                SIT
+                MRB
 		}
 		free_city = {
 			 BRM FRN GOS HAM KNZ MEM NUR REG ROT RVA ULM LUB DTM AGC KMP WTZ WRM BRN ZUR
