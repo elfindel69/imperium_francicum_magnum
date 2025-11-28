@@ -31,9 +31,7 @@ international_organization_manager = {
 		}
 		provinces = { 
 
-			#Emilia Romagna
 
-			#Lorraine
 			#Pomerania
 			schwerin_province vorpommern_province stettin_province koslin_province pyritz_province stolp_province
 			#Tuscany
@@ -45,9 +43,7 @@ international_organization_manager = {
 			aalst hulst sint_niklaas
 
 
-			arezzo cortona
-			modigliana
-			padova este monselice
+			 monselice
 			pazin 
 			rijeka
 
