@@ -42,8 +42,6 @@ international_organization_manager = {
 		locations = { 
 			aalst hulst sint_niklaas
 
-
-			 monselice
 			pazin 
 			rijeka
 
